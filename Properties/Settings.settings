@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Librarian2._0._1.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="conn" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Data Source=.\SQL2019;Initial Catalog=DB_libraryV2;User ID=sa;pwd=1qaz@wsx;Replication=True</Value>
+    </Setting>
+    <Setting Name="localDB" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|DB_libraryV2.mdf;Integrated Security=True</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

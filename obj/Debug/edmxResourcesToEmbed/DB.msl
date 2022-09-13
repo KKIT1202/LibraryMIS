@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DB_libraryV2ModelStoreContainer" CdmEntityContainer="DB_libraryV2Entities">
+    <EntitySetMapping Name="books">
+      <EntityTypeMapping TypeName="DB_libraryV2Model.books">
+        <MappingFragment StoreEntitySet="books">
+          <ScalarProperty Name="bookName" ColumnName="bookName" />
+          <ScalarProperty Name="state" ColumnName="state" />
+          <ScalarProperty Name="lastTakeDate" ColumnName="lastTakeDate" />
+          <ScalarProperty Name="lastTakeTime" ColumnName="lastTakeTime" />
+          <ScalarProperty Name="nameID" ColumnName="nameID" />
+          <ScalarProperty Name="takeName" ColumnName="takeName" />
+          <ScalarProperty Name="remark" ColumnName="remark" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="names">
+      <EntityTypeMapping TypeName="DB_libraryV2Model.names">
+        <MappingFragment StoreEntitySet="names">
+          <ScalarProperty Name="nameID" ColumnName="nameID" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="mail" ColumnName="mail" />
+          <ScalarProperty Name="password" ColumnName="password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
