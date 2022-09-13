@@ -440,6 +440,12 @@ namespace Librarian2._0._1
             }
         }
 
+
+        /// <summary>
+        /// 分類篩選事件
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void CBB_UseType_SelectedIndexChanged(object sender, EventArgs e)
         {
             DataTable SearchTable = new DataTable();
